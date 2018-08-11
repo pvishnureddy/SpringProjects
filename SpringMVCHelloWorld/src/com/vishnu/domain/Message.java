@@ -8,7 +8,14 @@ public class Message {
 	String name;
 	String message;
 	Date date;
+	int trace;
 	
+	public int getTrace() {
+		return trace;
+	}
+	public void setTrace(int trace) {
+		this.trace = trace;
+	}
 	public long getId() {
 		return id;
 	}
