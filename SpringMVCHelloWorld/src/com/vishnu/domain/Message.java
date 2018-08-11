@@ -4,9 +4,17 @@ import java.util.Date;
 
 public class Message {
 	
+	long id;
 	String name;
 	String message;
 	Date date;
+	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	
 	public String getName() {
 		return name;
