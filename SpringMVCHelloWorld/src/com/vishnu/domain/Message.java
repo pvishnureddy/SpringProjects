@@ -2,6 +2,10 @@ package com.vishnu.domain;
 
 import java.util.Date;
 
+/**
+ * @author HARINI
+ *
+ */
 public class Message {
 	
 	long id;
